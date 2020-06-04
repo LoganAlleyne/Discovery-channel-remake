@@ -1,0 +1,164 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
+* body {
+  background-color: black;
+  font-family: proxima-nova, sans-serif;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+  z-index: 10px;
+}
+
+.swiper-container .swiper-pagination {
+  position: absolute;
+  top: 93%;
+  right: 15%;
+  width: auto !important;
+  left: auto !important;
+  margin: 0;
+}
+
+.swiper-container .swiper-pagination-bullet {
+  border-radius: 0;
+  width: 2.75vw;
+  height: 0.5vh;
+  line-height: 0.5vh;
+  opacity: 1;
+  background: #858585;
+}
+
+.swiper-container .swiper-pagination-bullet-active {
+  background: white;
+}
+
+.swiper-container .swiper-button-prev {
+  position: absolute;
+  left: 90%;
+  top: 93%;
+  color: white;
+}
+
+.swiper-container .swiper-button-next {
+  position: absolute;
+  left: 95%;
+  top: 93%;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.swiper-container .swiper-slide {
+  background-position: center;
+  background-size: cover;
+}
+
+.swiper-container .DC {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url(/Assets/Backgrounds/DC-DESKTOP-BG.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/Assets/Backgrounds/DC-DESKTOP-BG.jpg);
+}
+
+.swiper-container .FNL {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url(/Assets/Backgrounds/FNL-BG.jpeg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/Assets/Backgrounds/FNL-BG.jpeg);
+}
+
+.swiper-container .MOTD {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url(/Assets/Backgrounds/MOTD-BG.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/Assets/Backgrounds/MOTD-BG.jpg);
+}
+
+.swiper-container .GD {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url(/Assets/Backgrounds/GD-BG.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/Assets/Backgrounds/GD-BG.jpg);
+}
+
+.logo {
+  position: absolute;
+  z-index: 1;
+  top: 83%;
+  left: 2%;
+  height: 15%;
+  margin: 0;
+  padding: 0;
+  mix-blend-mode: difference;
+}
+
+.nav {
+  position: absolute;
+  top: 3%;
+  left: 50%;
+  height: auto;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: xx-large;
+  font-weight: 500;
+  z-index: 10;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 50%;
+}
+
+.nav :hover {
+  color: #00ff2a;
+}
+
+.show-info {
+  position: absolute;
+  z-index: 10;
+  top: 50%;
+  right: 8%;
+  height: auto;
+  width: 20%;
+  color: white;
+}
+
+.show-info .show-title {
+  font-size: 5vw;
+  font-weight: 700;
+  padding: 0 0 2% 0;
+}
+
+.show-info .show-time {
+  font-size: 1.5vw;
+  padding-left: 2%;
+}
+
+.socials {
+  position: absolute;
+  top: 0;
+  z-index: 10;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: auto;
+  mix-blend-mode: difference;
+}
+
+.socials img {
+  width: 3vw;
+  margin: 1vh;
+}
+
+.socials :hover {
+  mix-blend-mode: normal;
+  width: 3.2vw;
+}
+
+.facebook::hover {
+  mix-blend-mode: normal;
+}
+/*# sourceMappingURL=style.css.map */
