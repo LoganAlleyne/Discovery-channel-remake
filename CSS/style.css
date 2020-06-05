@@ -109,7 +109,7 @@
 }
 
 .nav :hover {
-  color: #00ff2a;
+  color: rgba(255, 255, 255, 0.616);
 }
 
 .show-info {
@@ -149,16 +149,86 @@
 }
 
 .socials img {
-  width: 3vw;
+  width: 2vw;
   margin: 1vh;
 }
 
-.socials :hover {
-  mix-blend-mode: normal;
-  width: 3.2vw;
+.socials img:hover {
+  opacity: 60%;
 }
 
-.facebook::hover {
-  mix-blend-mode: normal;
+@media only screen and (max-width: 1350px) {
+  .logo {
+    top: 4%;
+    left: 2%;
+    height: 7%;
+  }
+  .nav {
+    top: 35%;
+    right: 2%;
+    height: 60%;
+    color: white;
+    font-size: large;
+    font-weight: 500;
+    width: 10%;
+    -webkit-writing-mode: vertical-rl;
+        -ms-writing-mode: tb-rl;
+            writing-mode: vertical-rl;
+    text-align: center;
+  }
+  .show-info {
+    top: 55%;
+    left: 5%;
+    width: 60%;
+  }
+  .show-info .show-title {
+    font-size: 8vh;
+    font-weight: 700;
+    padding: 0 0 2% 0;
+  }
+  .show-info .show-time {
+    font-size: 3vh;
+    padding-left: 2%;
+  }
+  .socials {
+    display: none;
+  }
+  .swiper-pagination {
+    position: absolute;
+    top: 96% !important;
+    right: 20% !important;
+    margin: 0;
+  }
+  .swiper-pagination-bullet {
+    border-radius: 0;
+    width: 14vw !important;
+    height: 0.5vh !important;
+    line-height: 5vh !important;
+    opacity: 1;
+    background: #858585;
+  }
+  .swiper-pagination-bullet-active {
+    background: white;
+  }
+  .swiper-button-prev {
+    display: none !important;
+  }
+  .swiper-button-next {
+    display: none !important;
+  }
+  .DC {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url(/Assets/Backgrounds/DC-MOBIL-BG.jpeg) !important;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/Assets/Backgrounds/DC-MOBIL-BG.jpeg) !important;
+  }
+  .MOTD {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url(/Assets/Backgrounds/MOTD-MOBILE-BG.jpg) !important;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/Assets/Backgrounds/MOTD-MOBILE-BG.jpg) !important;
+    background-position: top !important;
+  }
+  .GD {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url(/Assets/Backgrounds/GD-MOBILE-BG.jpg) !important;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/Assets/Backgrounds/GD-MOBILE-BG.jpg) !important;
+    background-position: top !important;
+  }
 }
 /*# sourceMappingURL=style.css.map */
