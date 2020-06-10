@@ -1,5 +1,5 @@
 # Discovery-channel-remake
-My attempt to remake and improve the Discovey Channel uk's website
+My attempt to remake and improve the Discovey Channel uk's landing page
 
 This was a small challenge I set myself just to practice and improve my skills
 
