@@ -99,7 +99,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-size: xx-large;
+  font-size: x-large;
   font-weight: 500;
   z-index: 10;
   -webkit-box-pack: space-evenly;
@@ -164,13 +164,14 @@
     height: 7%;
   }
   .nav {
-    top: 35%;
+    top: auto;
+    bottom: 5%;
     right: 2%;
-    height: 60%;
+    height: 70%;
+    width: auto;
     color: white;
     font-size: large;
     font-weight: 500;
-    width: 10%;
     -webkit-writing-mode: vertical-rl;
         -ms-writing-mode: tb-rl;
             writing-mode: vertical-rl;

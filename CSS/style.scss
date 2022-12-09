@@ -96,7 +96,7 @@
   height: auto;
   color: white;
   display: flex;
-  font-size: xx-large;
+  font-size: x-large;
   font-weight: 500;
   z-index: 10;
   justify-content: space-evenly;
@@ -154,13 +154,14 @@
   }
 
   .nav {
-    top: 35%;
+    top: auto;
+    bottom: 5%;
     right: 2%;
-    height: 60%;
+    height: 70%;
+    width: auto;
     color: white;
     font-size: large;
     font-weight: 500;
-    width: 10%;
     writing-mode: vertical-rl;
     text-align: center;
   }
